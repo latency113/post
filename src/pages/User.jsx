@@ -18,6 +18,7 @@ const User = () => {
   }, []);
   return (
   <div>
+    <h1 className="bg-red-500">Hello</h1>
     <ul>
         {users.map((user)=>(
             <li key={user.id}>{user.name}{user.email}</li>
